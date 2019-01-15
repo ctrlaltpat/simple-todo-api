@@ -4,3 +4,5 @@ let router = express.Router()
 router.get('/', (res,res) =>{
   res.send('Hello from todos routes')
 })
+
+module.exports = router
